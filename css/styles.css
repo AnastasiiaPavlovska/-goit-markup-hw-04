@@ -2,6 +2,7 @@
     --font-weight-h: 500;
     --font-weight-hh: 700;
     --font-size-h: 20px;
+    --font-size-hh: 36px;
     --line-height-h: 1.2;
     --line-height-hh: 1.1;
     --line-height-p: 1.5;
@@ -14,7 +15,6 @@
     --magic-color: #ffffff;
     --accent-color: #e7e9fc;
     --background-color: #f4f4fd;
-    --font-size-hh: 36px;
 }
 
 body {
@@ -267,9 +267,9 @@ main {
 .team-text {
     margin-top: 0;
     margin-bottom: 72px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
+    font-weight: var(--font-weight-hh);
+    font-size: var(--font-size-hh);
+    line-height: var(--line-height-hh);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -277,6 +277,7 @@ main {
 }
 
 .team-list {
+    display: flex;
     margin: 0;
     padding-left: 0;
 }
@@ -311,6 +312,20 @@ main {
     text-align: center;
     letter-spacing: var(--letter-spacing-p);
     color: var(--text-color);
+}
+
+.team-item-text {
+    padding: 32px 16px;
+}
+
+.team-icons-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--links-color);
 }
 
 
