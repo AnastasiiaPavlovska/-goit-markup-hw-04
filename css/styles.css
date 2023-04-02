@@ -351,6 +351,50 @@ main {
     padding-bottom: 120px;
 }
 
+.customers-text {
+    margin: 0;
+    font-weight: var(--font-weight-hh);
+    font-size: var(--font-size-hh);
+    line-height: var(--line-height-hh);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--hero-color);
+}
+
+.customers-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 72px;
+    padding: 0;
+}
+
+.customers-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
+
+.customers-icons {
+    fill: #8e8f99;
+}
+
+.customers-items:hover .customers-icons,
+.customers-items:focus .customers-icons {
+    fill: var(--hover-color);
+}
+
+.customers-items:hover,
+.customers-items:focus {
+    border: 1px solid var(--hover-color);
+    border-radius: 4px;
+}
+
 
 /*********** FOOTER *************/
 
