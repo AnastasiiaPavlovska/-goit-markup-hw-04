@@ -3,8 +3,8 @@
     --font-weight-hh: 700;
     --font-size-h: 20px;
     --font-size-hh: 36px;
-    --line-height-h: 1.2;
     --line-height-hh: 1.1;
+    --line-height-h: 1.2;
     --line-height-p: 1.5;
     --letter-spacing-h: 0.04em;
     --letter-spacing-p: 0.02em;
@@ -53,7 +53,10 @@ body {
 }
 
 
-/************* HEADER ******************/
+/* .featurs-item + .featurs-item = .featurs-item:not(:last-child) */
+
+
+/* header */
 
 .nav-bar {
     display: flex;
@@ -140,12 +143,15 @@ body {
     color: var(--hover-color);
 }
 
+
+/* main */
+
 main {
     background-color: var(--magic-color);
 }
 
 
-/******* HERO **********/
+/* hero */
 
 .hero {
     max-width: 1440px;
@@ -190,7 +196,7 @@ main {
 }
 
 
-/*************FEATURE**************/
+/* feature */
 
 .featurs {
     padding-top: 120px;
@@ -231,7 +237,7 @@ main {
 }
 
 
-/*********** SAMPLES ***********/
+/* samples */
 
 .samples {
     padding-bottom: 120px;
@@ -256,7 +262,7 @@ main {
 }
 
 
-/******* TEAM ***********/
+/* team */
 
 .team {
     padding-top: 120px;
@@ -289,11 +295,6 @@ main {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-item-text {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
 .team-name {
     margin-top: 0;
     margin-bottom: 8px;
@@ -320,12 +321,9 @@ main {
 
 .team-icons-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--links-color);
+    justify-content: space-between;
+    margin-top: 8px;
+    padding: 0;
 }
 
 .team-icons {
@@ -344,7 +342,7 @@ main {
 }
 
 
-/*********** Customers ***********/
+/* customers */
 
 .customers {
     padding-top: 130px;
@@ -366,7 +364,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    margin-bottom: 72px;
+    margin-top: 72px;
     padding: 0;
 }
 
@@ -396,7 +394,7 @@ main {
 }
 
 
-/*********** FOOTER *************/
+/* footer */
 
 .foot {
     background-color: var(--hero-color);
@@ -479,7 +477,7 @@ main {
 }
 
 
-/******** PORTFOLIO **********/
+/* Portfolio */
 
 .projects {
     padding-top: 96px;
