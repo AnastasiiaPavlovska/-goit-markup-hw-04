@@ -328,6 +328,29 @@ main {
     background-color: var(--links-color);
 }
 
+.team-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--links-color);
+}
+
+.team-icons:hover,
+.team-icons:focus {
+    background-color: var(--hover-color);
+}
+
+
+/*********** Customers ***********/
+
+.customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
 
 /*********** FOOTER *************/
 
