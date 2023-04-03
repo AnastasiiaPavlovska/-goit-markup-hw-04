@@ -212,9 +212,10 @@ main {
 .featurs-icons {
     width: 264px;
     height: 112px;
-    padding: 24px 100px;
+    /* padding: 24px 100px; */
     background: var(--background-color);
     border-radius: 4px;
+    display: flex;
 }
 
 .featurs-direction {
